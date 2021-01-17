@@ -6,7 +6,7 @@ Language: Kotlin
 
 Technologies: Retrofit, RealmDB, Paging3, Glide, Dagger Hilt
 
-API: none, just getting json responses from https://www.reddit.com/r/memes.json
+API: none, just getting posts from https://www.reddit.com/r/memes.json
 
 
 # Logic:
