@@ -11,7 +11,7 @@ API: none, just getting posts from https://www.reddit.com/r/memes.json
 
 # Logic:
 
-JSON response contains a batch of posts (20+) and a "next" key which is used to get the next batch.
+The JSON response contains a batch of posts (20+) and a "next" key which is used to get the next batch.
 The problem with loading memes purely from that response was that memes repeated when restarting the app, and even in different batches.
 The solution was to use a local database that stores memes. These stored memes have a "seen" bool value, which become true when they're seen on screen (onBindViewHolder). 
 This sort of meme source is very inconvenient because when the user restarts the app (especially in a short period), there could be no new memes in the first few batches, which resulted in the creating of special solutions that on rare occasions show already seen memes. 
