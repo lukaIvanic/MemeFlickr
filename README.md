@@ -33,7 +33,7 @@ The download is done using DownloadManager that takes the URI parsed url of the 
 
 # VERY optimistic TODOs
 
-#1 Add a search functionality that displays results if matched with text from the image, title, description, etc..
+#1 Add a search functionality that displays results if matched with text from within the image, title, description, etc..
 
 
 # Showcase
