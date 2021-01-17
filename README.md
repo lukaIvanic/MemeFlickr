@@ -37,4 +37,4 @@ The download is done using DownloadManager that takes the URI parsed url of the 
 
 
 # Showcase
-![GIF showcase of the app](https://cdn.discordapp.com/attachments/707574253116981274/800323449192972308/20210117-121117_2.gif)
+![GIF showcase of the app](https://cdn.discordapp.com/attachments/707574253116981274/800330886003294208/20210117-121117_5.gif)
