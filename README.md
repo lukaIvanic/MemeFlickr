@@ -4,7 +4,7 @@ Premise -> Scroll endlessly through memes from reddit. A meme never shows up twi
 
 Language: Kotlin
 
-Technologies: Retrofit, Room, Paging3, Glide, Dagger Hilt
+Technologies: Retrofit, RealmDB, Paging3, Glide, Dagger Hilt
 
 API: none, just getting json responses from /r/memes.json
 
