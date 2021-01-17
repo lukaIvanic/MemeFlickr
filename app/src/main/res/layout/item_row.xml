@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    apps:background="#000"
+    xmlns:apps="http://schemas.android.com/tools">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@android:color/white"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"/>
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/shareButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/ic_share"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="shareMeme"/>
+
+    <ImageButton
+        android:id="@+id/downloadButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/ic_download"
+        android:backgroundTint="#fff"
+        android:layout_toLeftOf="@id/shareButton"
+        android:layout_alignTop="@id/shareButton"
+        android:layout_alignBottom="@id/shareButton"
+        android:layout_marginRight="16dp"
+        android:onClick="downloadMeme"/>
+
+
+</RelativeLayout>
