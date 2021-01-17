@@ -19,6 +19,7 @@ Sharing just takes the url of the image (for now), so it's only reliable for pla
 The download is done using DownloadManager that takes the URI parsed url of the meme. 
 
 
+
 #### Sidenote
 
 Paging is a HUGE overkill in this app and had infact caused some problems with loading same memes which required special solutions.
